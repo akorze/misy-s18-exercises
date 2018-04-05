@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Exercise</title>
+    <script src="my-code.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+      let balance = 1000;
+      interest = 0.03;
+      years = 0;
+      while (balance < 1000000) {
+        balance = balance + balance * interest;
+        years +=1;
+      }
+      console.log("in " + years + " years, bro.");
+
+      // let grade = 75;
+      function grade_calc (g) {
+        if (g >= 90) {
+          return "A";
+        } else if (g >= 80) {
+          return "B";
+        } else if (g >= 70) {
+          return "C";
+        } else {
+          return "D";
+        }
+      }
+
+
+      console.log("You got " + grade_calc(95));
+      console.log("You got " + grade_calc(69));
+      console.log("You got " + grade_calc(87));
+
+    </script>
+  </head>
+  <body>
+    <h1>JS Exercise, See Console for Outputs</h1>
+  </body>
+</html>

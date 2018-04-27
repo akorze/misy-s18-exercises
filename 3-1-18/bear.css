@@ -1,0 +1,49 @@
+html{
+  font-family: Georgia;
+  background-color: #FBF9ED;
+}
+/* Changes the page's font to Georgia and background color to a light tan */
+
+h1{
+  color: #F49C6A;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 50px;
+}
+/* Changes the heading 1 color to light brown, font size to 5 times its natural size, centers the heading, and adds 50 px of
+distance in between content and border */
+
+h2{
+  font-family: "Courier New";
+  text-transform: uppercase;
+}
+/* Changes the heading 2 font to Courier New and capitalizes all text */
+
+h3{
+  font-family: Helvetica;
+  font-weight: 200;
+}
+/* Changes the heading 3 font to Helvetica and the thickness of the font to half the normal setting */
+
+ nav a{
+   color: #F4C7A8;
+ }
+ /* Changes the nav anchors to light brown */
+
+nav li a{
+   color: #B57493;
+   font-size: 1.5em;
+ }
+ /* Changes the nav list anchors to light purple */
+
+#habitat{
+  color: white;
+  background-image: url(https://s3.amazonaws.com/misy350/bg-tree.jpg);
+  background-size: cover;
+}
+/* Changes the ID habitat content to white as well as adding a background image that spans the ID */
+
+#media img{
+  border-radius: 100%;
+}
+/* Changes the ID media image to a circle */

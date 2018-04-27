@@ -1,0 +1,84 @@
+html{
+  font-family: Georgia;
+  background-color: #FBF9ED;
+}
+/* Changes the page's font to Georgia and background color to a light tan */
+
+h1{
+  color: #F49C6A;
+  font-size: 5em;
+  text-align: center;
+  border: 5px solid;
+}
+/* Changes the heading 1 color to light brown, font size to 5 times its natural size, centers the heading, and adds 5px solid border */
+
+h2{
+  font-family: "Courier New";
+  text-transform: uppercase;
+}
+/* Changes the heading 2 font to Courier New and capitalizes all text */
+
+h3{
+  font-family: Helvetica;
+  font-weight: 200;
+}
+/* Changes the heading 3 font to Helvetica and the thickness of the font to half the normal setting */
+
+ nav a{
+   color: #F4C7A8;
+   text-decoration: none;
+ }
+ /* Changes the nav anchors to light brown and removes underline */
+
+nav li a{
+   color: #B57493;
+   font-size: 1.5em;
+ }
+ /* Changes the nav list anchors to light purple */
+
+ nav ul{
+   text-align: center;
+ }
+  /* Centers the nav unordered list */
+
+ nav li{
+   padding: 20px;
+   display: inline-block;
+ }
+  /* Changes the nav list elements from vertical orientation to inline horizontally with 20px of padding in between them */
+
+.top-menu{
+  text-align: center;
+}
+/* Centers the class top-menu */
+
+.top-menu a{
+    background: #F4C7A8;
+    border: 1px solid #F4C7A8;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+}
+/* Creates button for each of the anchors in the top-menu class with a light brown background and border (solid 1px), white text,
+inline horizontal orientation, and 14px of space between the elements an d their borders as well as 10px of space on the outside of the borders */
+
+.top-menu a:hover {
+    background: white;
+    border: 1px solid #F4C7A8;
+    color: #F4C7A8;
+}
+/* Creates hover effect for each of the anchors in the top-menu class with a white background and light brown text and border (solid 1px) */
+
+#habitat{
+  color: white;
+  background-image: url(https://s3.amazonaws.com/misy350/bg-tree.jpg);
+  background-size: cover;
+}
+/* Changes the ID habitat content to white as well as adding a background image that spans the ID */
+
+#media img{
+  border-radius: 100%;
+}
+/* Changes the ID media image to a circle */
